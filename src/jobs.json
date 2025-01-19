@@ -1,0 +1,102 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Senior React Developer",
+      "type": "Full-Time",
+      "location": "Boston, MA",
+      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS and JavaScript, with experience working with modern JavaScript frameworks such as React ar Angular.",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@teksolutions.com",
+        "contactPhone": "111-111-1111"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Front-End Engineer ",
+      "type": "Full-Time",
+      "location": "Miami, FL",
+      "description": "Join our team as a Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS and JavaScript, with experience working with modern JavaScript frameworks such as React ar Angular.",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "Veneer Solutions",
+        "description": "Veneer Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@veneersolutions.com",
+        "contactPhone": "222-222-2222"
+      }
+    },
+    {
+      "id": "3",
+      "title": "React.js Developer",
+      "type": "Full-Time",
+      "description": "Are you passionate about Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS and JavaScript, with experience working with modern JavaScript frameworks such as React ar Angular.",
+      "location": "Brooklyn, NY",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "Dolor Cloud",
+        "description": "Dolor Cloud is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@dolorcloud.com",
+        "contactPhone": "333-333-3333"
+      }
+    },
+    {
+      "id": "4",
+      "title": "React Front-End Developer",
+      "type": "Part-Time",
+      "description": "Join our team as a Part-Time Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS and JavaScript, with experience working with modern JavaScript frameworks such as React ar Angular.",
+      "location": "Phoenix, AZ",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "Alpha Elite",
+        "description": "Alpha Elite is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@alphaelite.com",
+        "contactPhone": "444-444-4444"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Full Stack React Developer",
+      "type": "Full-Time",
+      "description": "Are you passionate about Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS and JavaScript, with experience working with modern JavaScript frameworks such as React ar Angular.",
+      "location": "Phoenix, AZ",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Browning Technologies",
+        "description": "Browning Technologies is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@browningtechnologies.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "6",
+      "title": "React Native Developer",
+      "type": "Full-Time",
+      "description": "Join our team as a Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS and JavaScript, with experience working with modern JavaScript frameworks such as React ar Angular.",
+      "location": "Portland, OR",
+      "salary": "$100K - $110K",
+      "company": {
+        "name": "Port Solutions INC",
+        "description": "Port Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@portsolutions.com",
+        "contactPhone": "666-666-6666"
+      }
+    },
+    {
+      "id": "6dd6",
+      "title": "Name",
+      "type": "Part-Time",
+      "location": "Lviv",
+      "description": "Very good job",
+      "salary": "$60 - 70K",
+      "company": {
+        "name": "Front",
+        "description": "Super",
+        "contactEmail": "foret@gmail.com",
+        "contactPhone": "433-433-4343"
+      }
+    }
+  ]
+}
