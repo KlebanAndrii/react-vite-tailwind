@@ -9,7 +9,7 @@ function HomeCards() {
           <Card>
             <h2 className="text-2xl font-bold">For Developers</h2>
             <p className="mt-2 mb-4">Browse our React jobs and start your career today</p>
-            <Link to="/jobs" className="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700">
+            <Link to="/jobs" className="inline-block bg-gray-600 text-white rounded-lg px-4 py-2 hover:bg-gray-700">
               Browse Jobs
             </Link>
           </Card>

@@ -82,11 +82,30 @@ function JobPage() {
   );
 }
 
+// const jobLoader = async ({ params }) => {
+//   const res = await fetch(`/api/jobs/${params.id}`);
+//   const data = await res.json();
+//   return data;
+// };
+
 const jobLoader = async ({ params }) => {
-  const res = await fetch(`/api/jobs/${params.id}`);
+  const res = await fetch('/jobs.json');
+  
+  if (!res.ok) {
+    throw new Error('Could not fetch jobs.');
+  }
+
   const data = await res.json();
-  return data;
+  
+  const job = data.jobs.find((job) => job.id.toString() === params.id);
+
+  if (!job) {
+    throw new Error('Job not found');
+  }
+
+  return job;
 };
+
 
 
 export { JobPage as default, jobLoader };

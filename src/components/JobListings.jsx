@@ -10,14 +10,25 @@ function JobListings({ isHome = false }) {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
+    // const fetchJobs = async () => {
+    //   const apiUrl = isHome ? "/api/jobs?_limit=3" : "/api/jobs";
+    //   try {
+    //     const res = await fetch(apiUrl);
+    //     const data = await res.json();
+    //     setJobs(data);
+    //   } catch (error) {
+    //     console.log("Error fetching data", error);
+    //   } finally {
+    //     setLoading(false);
+    //   }
+    // };
+
     const fetchJobs = async () => {
-      const apiUrl = isHome ? "/api/jobs?_limit=3" : "/api/jobs";
       try {
-        const res = await fetch(apiUrl);
-        const data = await res.json();
-        setJobs(data);
+        const { jobs = [] } = await (await fetch("/jobs.json")).json();
+        setJobs(isHome ? jobs.slice(0, 3) : jobs);
       } catch (error) {
-        console.log("Error fetching data", error);
+        console.error("Error fetching jobs:", error);
       } finally {
         setLoading(false);
       }

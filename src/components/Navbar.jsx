@@ -8,7 +8,7 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { user, logout } = useAuth();
 
-  const linkClass = ({ isActive }) => (isActive ? "text-white bg-black rounded-md px-3 py-2" : "text-white hover:bg-gray-900 rounded-md px-3 py-2");
+  const linkClass = ({ isActive }) => (isActive ? "text-white bg-gray-600 rounded-md px-3 py-2" : "text-white hover:bg-gray-700 rounded-md px-3 py-2");
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -52,16 +52,16 @@ function Navbar() {
             <div className="flex space-x-4 items-center text-sm">
               {user ? (
                 <>
-                  <span className="text-white">Welcome, {user.name}</span>
-                  <button onClick={logout} className="bg-gray-600 hover:bg-gray-700 text-white font-medium py-2 px-4 rounded-md shadow-md hover:shadow-lg transition duration-200">
-                    Go out
+                  <span className="text-white">Name: {user.name}</span>
+                  <button onClick={logout} className="bg-cyan-600 hover:bg-cyan-800 text-white font-medium py-2 px-4 rounded-md shadow-md hover:shadow-lg transition duration-200">
+                    Exit
                   </button>
                   <Avatar />
                 </>
               ) : (
                 <>
                   <NavLink to="/register" className="relative inline-block px-4 py-2 font-medium group">
-                    <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-blue-500 to-green-500 rounded-md blur-sm opacity-75 group-hover:opacity-100 group-hover:blur-none transition"></span>
+                    <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-gray-600 to-green-500 rounded-md blur-sm opacity-75 group-hover:opacity-100 group-hover:blur-none transition"></span>
                     <span className="relative text-white">Sign Up</span>
                   </NavLink>
                   <NavLink to="/login" className="bg-white/10 backdrop-blur-lg text-white border border-white/20 rounded-lg px-4 py-2 hover:bg-white/20 transition">
