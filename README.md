@@ -2,6 +2,9 @@
 
 # react-vite-tailwind - add new card jobs, implementing registration, setItem/removeItem an avatar in a localStorage, editing a card, deleting a card.
 
+![RecruitingRecruitmentGIF](https://github.com/user-attachments/assets/e2b01008-07b0-4dd9-a088-941c4f949677)
+
+
 ### React + Vite
 ### npm run server
 ### npm run dev
