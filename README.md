@@ -1,4 +1,4 @@
-👉  Click here - [react-jobs-vite]([https://classy-frangollo-cda106.netlify.app/](https://react-jobs-vite.netlify.app/))
+👉  Click here - [react-jobs-vite](https://react-jobs-vite.netlify.app/)
 
 # react-vite-tailwind - add new card jobs, implementing registration, setItem/removeItem an avatar in a localStorage, editing a card, deleting a card.
 
