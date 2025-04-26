@@ -1,9 +1,10 @@
-# React + Vite
+👉  Click here - [react-jobs-vite]([https://classy-frangollo-cda106.netlify.app/](https://react-jobs-vite.netlify.app/))
 
+# react-vite-tailwind - add new card jobs, implementing registration, setItem/removeItem an avatar in a localStorage, editing a card, deleting a card.
 
-👉 - [react-vite-tailwind - add new card jobs, implementing registration, setItem/removeItem an avatar in a localStorage, editing a card, deleting a card.](https://classy-frangollo-cda106.netlify.app/)
-## npm run server
-## npm run dev
+### React + Vite
+### npm run server
+### npm run dev
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
